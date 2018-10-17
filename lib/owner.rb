@@ -24,7 +24,7 @@ class Owner
     cat = Cat.new(name)
     pets[:cat] << cat
   end
-  
+
   def self.all
     @@owners
   end
