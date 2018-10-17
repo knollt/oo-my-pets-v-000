@@ -29,7 +29,7 @@ class Owner
     dog = Dog.new(name)
     pets[:dogs] << dog
   end
-  
+
   def self.all
     @@owners
   end
