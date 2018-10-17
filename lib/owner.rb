@@ -9,4 +9,8 @@ class Owner
     @pets = pets
   end
 
+  def self.all
+    @@owners
+  end
+    
 end
